@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Logo de la web: copa con estrellas</title>
+  <!-- Fondo circular azul -->
+  <circle cx="32" cy="32" r="31" fill="#0B1E5B"/>
+  <!-- Asas de la copa ("las orejas") -->
+  <path d="M19 18 C8 18 9 34 22 34" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M45 18 C56 18 55 34 42 34" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <!-- Cuerpo de la copa -->
+  <path d="M19 14 H45 V24 C45 33 39 39 32 39 C25 39 19 33 19 24 Z" fill="#F59E0B"/>
+  <!-- Pie de la copa -->
+  <rect x="29" y="39" width="6" height="7" fill="#F59E0B"/>
+  <rect x="22" y="46" width="20" height="5" rx="2" fill="#F59E0B"/>
+  <!-- Estrella en la copa -->
+  <path d="M32 19 L33.8 23.2 L38.3 23.6 L34.9 26.5 L35.9 31 L32 28.6 L28.1 31 L29.1 26.5 L25.7 23.6 L30.2 23.2 Z" fill="#FFFFFF"/>
+  <!-- Estrellas pequeñas alrededor -->
+  <circle cx="12" cy="44" r="1.8" fill="#FFFFFF"/>
+  <circle cx="52" cy="44" r="1.8" fill="#FFFFFF"/>
+  <circle cx="32" cy="7" r="1.8" fill="#FFFFFF"/>
+</svg>
