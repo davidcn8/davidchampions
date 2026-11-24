@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto · Champions League</title>
+  <meta name="description" content="Escríbenos para enviar dudas, propuestas o correcciones sobre la web de la Champions League.">
+  <meta name="theme-color" content="#0B1E5B">
+  <link rel="icon" href="Imagenes/logo-trofeo.svg" type="image/svg+xml">
+  <link rel="icon" href="Imagenes/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="alternate" type="application/rss+xml" title="Noticias de la web de la Champions" href="noticias.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- CABECERA -->
+  <header>
+    <h1>Contacto</h1>
+  </header>
+
+  <!-- MENÚ -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="finales.html">Finales</a></li>
+      <li><a href="palmares.html">Palmarés</a></li>
+      <li><a href="contactos.html" class="activo">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <section id="formulario">
+      <h2>Escríbenos</h2>
+      <p>Rellena el formulario y te responderemos lo antes posible. Los campos con <strong>*</strong> son obligatorios.</p>
+
+      <form action="gracias.html" method="get">
+
+        <fieldset>
+          <legend>Tus datos</legend>
+
+          <label for="nombre">Nombre *</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <br>
+
+          <label for="email">Correo electrónico *</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+
+          <label for="edad">Edad</label>
+          <input type="number" id="edad" name="edad" min="12" max="99">
+          <br>
+
+          <label for="equipo">Tu equipo favorito</label>
+          <select id="equipo" name="equipo">
+            <option value="real-madrid">Real Madrid</option>
+            <option value="barcelona">FC Barcelona</option>
+            <option value="atletico">Atlético de Madrid</option>
+            <option value="otro">Otro equipo</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Motivo del contacto *</legend>
+
+          <input type="radio" id="motivo-duda" name="motivo" value="duda" checked required>
+          <label for="motivo-duda">Tengo una duda</label>
+          <br>
+
+          <input type="radio" id="motivo-error" name="motivo" value="error">
+          <label for="motivo-error">He encontrado un error en un dato</label>
+          <br>
+
+          <input type="radio" id="motivo-propuesta" name="motivo" value="propuesta">
+          <label for="motivo-propuesta">Quiero proponer una sección nueva</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Temas que te interesan</legend>
+
+          <input type="checkbox" id="tema-finales" name="temas" value="finales">
+          <label for="tema-finales">Finales</label>
+          <br>
+
+          <input type="checkbox" id="tema-palmares" name="temas" value="palmares">
+          <label for="tema-palmares">Palmarés y récords</label>
+          <br>
+
+          <input type="checkbox" id="tema-historia" name="temas" value="historia">
+          <label for="tema-historia">Historia de la competición</label>
+        </fieldset>
+
+        <label for="fecha">¿Desde cuándo sigues la Champions?</label>
+        <input type="date" id="fecha" name="fecha" min="1956-01-01" max="2026-12-31">
+        <br>
+
+        <label for="mensaje">Mensaje *</label>
+        <br>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        <br>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+    <section id="datos">
+      <h2>Otras formas de contactar</h2>
+      <dl>
+        <dt>Correo</dt>
+        <dd><a href="mailto:info@champions-web.example">info@champions-web.example</a></dd>
+        <dt>Horario de respuesta</dt>
+        <dd>De lunes a viernes, de 9:00 a 14:00.</dd>
+      </dl>
+      <p>Si quieres información oficial de la competición, visita la <a href="https://www.uefa.com/uefachampionsleague/" target="_blank" rel="noopener">web oficial de la UEFA Champions League</a>.</p>
+    </section>
+
+  </main>
+
+  <!-- BARRA LATERAL -->
+  <aside>
+    <h2>Antes de escribir</h2>
+    <ul>
+      <li>Consulta las <a href="finales.html">finales</a> por si tu duda ya está resuelta.</li>
+      <li>Revisa el <a href="palmares.html">palmarés</a> para comprobar los títulos.</li>
+    </ul>
+  </aside>
+
+  <!-- PIE -->
+  <footer>
+    <p>Logo: elaboración propia. Los textos y datos de esta web están escritos para un proyecto de clase.</p>
+    <p><a href="https://github.com/davidcn8/davidchampions" target="_blank" rel="noopener">Repositorio en GitHub</a> &mdash; <a href="noticias.xml">Noticias (RSS)</a></p>
+    <p>David Corrales Núñez · 1.º DAW · Lenguajes de Marcas</p>
+  </footer>
+
+</body>
+</html>
