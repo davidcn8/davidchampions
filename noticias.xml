@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias de la web de la Champions League</title>
+    <link>https://davidcn8.github.io/davidchampions/</link>
+    <description>Novedades y cambios en la web de la Champions League (proyecto de clase)</description>
+    <language>es</language>
+    <item>
+      <title>Nuevo vídeo: la fiesta de la Undécima</title>
+      <link>https://davidcn8.github.io/davidchampions/index.html</link>
+      <description>En la portada hay un vídeo con licencia libre de la celebración del Real Madrid con el trofeo en 2016.</description>
+      <pubDate>Sun, 22 Nov 2026 19:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Actualizado el palmarés con el título del PSG</title>
+      <link>https://davidcn8.github.io/davidchampions/palmares.html</link>
+      <description>Las tablas de títulos por club y por país ya incluyen la Champions de 2026.</description>
+      <pubDate>Tue, 17 Nov 2026 21:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Abrimos el formulario de contacto</title>
+      <link>https://davidcn8.github.io/davidchampions/contactos.html</link>
+      <description>Ya puedes enviarnos dudas, errores o propuestas de nuevas secciones.</description>
+      <pubDate>Tue, 03 Nov 2026 18:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
